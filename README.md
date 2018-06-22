@@ -3,6 +3,7 @@ Luego de la presentacion hicimos  una evaluación de lo hecho hasta el momento, 
 Tomamos la decisión de usar metodología de trabajo SCRUM ya que para nuestro entender es la mejor
 de las alternativas que vimos. Si bien ya que teniamos 6 semanas de trabajo esto nos dió la oportunidad
 de tomar distintas tareas semanales a cada uno.
+
 1° semana 2 al 9
 Promanager = Diego_Deluaude
 *Lunes asignar tareas a realizar.
@@ -14,6 +15,7 @@ Promanager = Diego_Deluaude
  una buena cena con el equipo de trabajo.
 *Sábado en clase el promanager realizó una reunión en la cual cada uno expuso lo hecho y con la información 
 recabada preparó el traspaso para el nuevo Promanager.
+
 2° semana 10 al 16
 Promanager = Valeria_Lofrano
 *Lunes controla tareas realizadas.
@@ -23,6 +25,7 @@ Promanager = Valeria_Lofrano
 *Viernes nos juntamos en la casa de una compañera para ver como veníamos hasta el momento. 
 *Sábado en clase el promanager realizó una reunión en la cual cada uno expuso lo hecho y con la información 
 recabada preparó el traspaso para el nuevo Promanager.
+
 3° semana 17 al 23
 Promanager = Julian_Herrera
 *Lunes controla tareas realizadas y modifica tareas acorde a lo que nos falta realizar.

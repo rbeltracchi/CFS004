@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+
+
+<hibernate-mapping>
+  <class name="com.sidc.clases.Medico" table="medico">
+        <id name="matricula" column="matricula">
+        </id>
+        <property name="contraseña"/>
+        <property name="dniMedico"/>
+        <property name="especialidad"/>
+        <property name="nombre"/>
+        <property name="apellido"/>
+    </class>
+</hibernate-mapping>

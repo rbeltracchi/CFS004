@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping>
+    <class name="com.sidc.clases.Persona" table="persona">
+        <id name="dni" column="dni"/>
+        <property name="nombre"/>
+        <property name="apellido"/>
+        <property name="fechaNacimiento" column="fecha_nacimiento"/>
+        <property name="telefono"/>
+        <property name="email"/>
+        <property name="password"/>
+        <property name="calle"/>
+        <property name="numero"/>
+        <property name="piso"/>
+        <property name="letra"/>
+        
+        <bag name="vacunas" table="vacunasaplicadas" inverse="true">
+            <key column="dni"/>
+            <many-to-many column="idVacuna" class="com.sidc.clases.Vacuna" />
+        </bag>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/sidc_2</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">julian</property>
+    
+    <mapping resource="alergia.hbm.xml"/>
+    <mapping resource="antecedente.hbm.xml"/>
+    <!--<mapping resource="direccion.hbm.xml"/>-->
+    <mapping resource="historiaClinica.hbm.xml"/>
+    <mapping resource="medico.hbm.xml"/>
+    <mapping resource="persona.hbm.xml"/>
+    <mapping resource="sede.hbm.xml"/>
+    <mapping resource="vacuna.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

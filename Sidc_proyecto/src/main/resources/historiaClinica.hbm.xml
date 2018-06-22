@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping>
+    <class name="com.sidc.clases.HistoriaClinica" table="historiaclinica">
+        <id name="id" column="idHistoriaClinica">
+            <generator class="increment"></generator>
+        </id>
+        <property column="grupo_sanguineo" name="grupoSanguineo"/> 
+        
+        <bag name="historial" table="antecedente" lazy="false">
+            <key column="idHistoriaClinica"/>
+            <one-to-many class="com.sidc.clases.Antecedente"/>
+        </bag>
+        
+        <bag name="alergias" table="historialdealergias" inverse="true">
+            <key column="idHistoriaClinica"/>
+            <many-to-many column="id_alergia" class="com.sidc.clases.Alergia" />
+        </bag>
+        
+    </class>
+</hibernate-mapping>
